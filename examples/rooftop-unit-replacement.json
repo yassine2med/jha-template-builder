@@ -1,0 +1,28 @@
+{
+  "job": "Replace rooftop HVAC unit on Building A",
+  "steps": [
+    {
+      "step": "Isolate power and gas",
+      "hazards": [
+        {"hazard": "Electric shock from live disconnect", "severity": 5, "likelihood": 2,
+         "controls": ["Lockout and tag the disconnect", "Verify zero voltage with a meter"]}
+      ]
+    },
+    {
+      "step": "Crane lift of old unit",
+      "hazards": [
+        {"hazard": "Dropped or swinging load", "severity": 5, "likelihood": 3,
+         "controls": ["Exclusion zone below the lift", "Certified rigger and signal person", "Check rated load"]},
+        {"hazard": "Fall from roof edge", "severity": 5, "likelihood": 3,
+         "controls": ["Guardrail or personal fall arrest system", "Mark the roof edge"]}
+      ]
+    },
+    {
+      "step": "Set curb and connect new unit",
+      "hazards": [
+        {"hazard": "Hand cuts from sheet metal", "severity": 2, "likelihood": 4,
+         "controls": ["Cut-resistant gloves"]}
+      ]
+    }
+  ]
+}
