@@ -1,3 +1,5 @@
+<p align="center"><img src="docs/banner.svg" alt="jha-template-builder" width="100%"></p>
+
 # jha-template-builder
 
 Reads a job as JSON, scores each hazard and prints a Markdown Job Hazard Analysis (JHA) with a high risk summary.
