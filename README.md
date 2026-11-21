@@ -2,6 +2,8 @@
 
 # jha-template-builder
 
+[![CI](https://github.com/yassine2med/jha-template-builder/actions/workflows/ci.yml/badge.svg)](https://github.com/yassine2med/jha-template-builder/actions/workflows/ci.yml) ![Python](https://img.shields.io/badge/python-3.10%2B-3776ab) ![License](https://img.shields.io/badge/license-MIT-8fb08a)
+
 Reads a job as JSON, scores each hazard and prints a Markdown Job Hazard Analysis (JHA) with a high risk summary.
 
 ![Screenshot](docs/screenshot.png)
